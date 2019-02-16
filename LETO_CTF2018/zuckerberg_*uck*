@@ -1,0 +1,10 @@
+//Описание
+Kip Drordy was very sad about facebook , so he decided to use a "easiest, and most powerful platform available today for creating a community-powered brand"(as said in twitter) which he called a Kip'sBook
+//флаг
+CTF{Fuck_Y0u_I'M_Dr0rDy}
+//решение 
+гуглим по словам в кавычках сайт + добавляем twitter - видем оф страницу MightyNetworks, там ищем соц сеть под названием Kip'sBook, сквозь мемы и прочую чушь находим пост о том, что кип решил заныкать у себя на странице флаг и начинается он с CTF{хеш и без закрывающейся скобки
+декодим по MD5(про него можно догадаться по первому посту или тупо вставить куда-то) и осталось добавить всего две части, разбросанные в комментариях к его же постам
+//ссылки
+https://kip-sbook.mn.co
+https://www.md5online.org
