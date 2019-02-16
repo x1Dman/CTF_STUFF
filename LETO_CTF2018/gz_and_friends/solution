@@ -1,0 +1,41 @@
+//task
+One or zero?
+//decr
+Stan found pretty strange dialog between Cartman and Kyle...check this out, may be you will find something that can be unpacked?)
+//solution
+Всего используется два имени - Двоичная система, пробуем написать две версии с 0 и 1(1 и 0 соотвественно), в итоге пишем программу, которая создаст бинарный файл - в итоге это архив, внутри которого лежит txt с флагом)
+code:
+listBit = []
+spText = open("path", "r")
+for word in spText:
+    word = word.split(" ")
+print(word)
+for item in word:
+    if item == "Kyle":
+        listBit.append("0")
+    else:
+        listBit.append("1")
+
+arr = listBit
+count = 0
+y = ""
+b = []
+
+for i in range(len(arr)):
+    y += arr[i]
+    count += 1
+    if count == 8:
+        b.append(int(y, 2))
+        y = ""
+        count = 0
+    if i == len(arr) - 1 and count != 0:
+        b.append(int(y, 2))
+        y = ""
+        count = 0
+        break
+
+newFile = open("path","wb")
+for byte in b:
+    newFile.write(byte.to_bytes(1, byteorder = 'big'))
+//flag 
+    CTF{BiNaRy_R0FlEs_Ar3_C00L}
