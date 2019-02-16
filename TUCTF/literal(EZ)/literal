@@ -1,0 +1,10 @@
+Something's going over my head, and it's too fast for me to catch! (Difficulty: Easy)
+
+http://18.222.124.7
+
+1) пытаемся зайти - видим редирект на fork-bomb
+2) в момент перехода пытаемся отследить страницу
+3) видим следующий закоментированный фрагмент в теле html
+4) немного логики и выписываем флаг!
+
+flag: TUCTF{R34L.0N35.4R3.D4NG3R0U5}
