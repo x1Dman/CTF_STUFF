@@ -1,0 +1,11 @@
+//начало
+- Cartman tell me about your skills
+- I started with b32, then upgrade my talent to the b64...but it's not the end coz im really cool and know the data matrix
+- Cartman you so cool!!!
+- Thank you Clyde Frog
+//решение
+распаковываем все в обратном порядке (вырезаем дата матрицу с фотки, через python получаем base64 строку, после этого получаем base32, после декодирования его получаем флаг)
+//флаг
+CTF{DM_1S_C00L}
+//ресурсы
+https://online-barcode-reader.inliteresearch.com
