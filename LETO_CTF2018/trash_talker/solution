@@ -1,0 +1,18 @@
+//task
+Cartman, stop swarming, i can't catch the flag!!
+//Решение 
+Парсим текст, выдираем буквы, соединяем, переворачиваем
+text = open("path", "r")
+flag = ""
+
+for word in text:
+    word = word.decode()
+
+for k in range(len(word)):
+    if word[k] != "@" and word[k] != "#" and word[k] != "!":
+        flag += word[k]
+
+print(flag[-1::-1])
+
+//flag 
+CTF{PPC_0n3_L0v3}
