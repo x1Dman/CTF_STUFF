@@ -1,0 +1,9 @@
+A witch holds the key, but they know some old school tricks. (Difficulty: Normal)
+
+nc 18.217.136.192 12345
+
+1) заходим
+2) выбираем любой пункт
+3) пишем внутри cat flag.txt
+
+flag: TUCTF{W)(3N_V1RU2_AU7H0R2_W3R3_CR3471V3}
