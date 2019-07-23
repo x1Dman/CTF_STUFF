@@ -1,5 +1,5 @@
 1) заходим на сайт
-![alt text](https://github.com/x1Dman/CTF_STUFF/blob/master/ROSTELECOM_CTF/Bookkepr(WEB)/photos/Screenshot%202019-07-23%20at%2006.12.56.png)
+![Alt text](https://github.com/x1Dman/CTF_STUFF/blob/master/ROSTELECOM_CTF/Bookkepr(WEB)/photos/Screenshot%202019-07-23%20at%2006.12.56.png)
 2) пытаемся потыкаться во все, что можно
 3) смотрим исходник и видимо, что встроен пост прям в хтмл
 4) немного поигравшись - видимо, что он изменяем (например email можно заменить на login)
