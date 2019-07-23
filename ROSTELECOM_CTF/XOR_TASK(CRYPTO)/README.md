@@ -14,3 +14,6 @@ https://wiremask.eu/tools/xor-cracker/
 
 # XORTOOL
 http://kmb.ufoctf.ru/crypto/xor/main.html
+
+# FLAG
+CC{x0r_ev3ryth1n9}
